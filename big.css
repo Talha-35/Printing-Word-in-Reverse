@@ -1,0 +1,36 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    margin-left: 20rem;
+
+}
+.main {
+    margin-top: 10vh;
+}
+
+.head h1 {
+    letter-spacing: 2px;
+    font-size: 4rem;
+    
+    -webkit-box-reflect: below 3px linear-gradient(transparent , rgba(3, 3, 3, 0.267)) ;
+}
+
+#input,#button{
+    height: 70px;
+    padding: 0 30px;
+    font-size: 25px;
+    background-color: rgb(236, 208, 155);
+    border-radius: 15px;
+
+}
+
+#result {    
+    padding: 1rem 1rem ;
+    font-size: 1.9rem;    
+}
